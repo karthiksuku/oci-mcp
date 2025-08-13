@@ -14,6 +14,7 @@ Model Context Protocol (MCP) server exposing **Oracle Cloud Infrastructure** too
 ```bash
 git clone https://github.com/karthiksuku/oci-mcp.git
 cd oci-mcp
+chmod +x install.sh
 ./install.sh
 cp .env.example .env
 # ensure you've run: oci setup config
