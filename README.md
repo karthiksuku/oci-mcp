@@ -16,7 +16,12 @@ git clone https://github.com/karthiksuku/oci-mcp.git
 cd oci-mcp
 chmod +x install.sh
 ./install.sh
-cp .env.example .env
+### Auth Prerequisites
+- OCI CLI configured. By default this server reads credentials from `~/.oci/config`.
+  - Create it with: `oci setup config`
+  - macOS/Linux: `~/.oci/config`
+  - Windows: `%USERPROFILE%\.oci\config`
+  - Override via `OCI_CONFIG_FILE=/path/to/config` or a `.env` file.
 # ensure you've run: oci setup config
 python oci_mcp_server.py  # starts stdio MCP server
 ```
