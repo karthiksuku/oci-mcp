@@ -12,8 +12,8 @@ Model Context Protocol (MCP) server exposing **Oracle Cloud Infrastructure** too
 ## Quick start
 
 ```bash
-git clone https://github.com/yourusername/oci-mcp-server.git
-cd oci-mcp-server
+git clone https://github.com/karthiksuku/oci-mcp.git
+cd oci-mcp
 ./install.sh
 cp .env.example .env
 # ensure you've run: oci setup config
@@ -28,7 +28,7 @@ Add to `~/.claude/claude_desktop_config.json`:
   "mcpServers": {
     "oci-infrastructure": {
       "command": "python",
-      "args": ["/ABSOLUTE/PATH/oci-mcp-server/oci_mcp_server.py"],
+      "args": ["/ABSOLUTE/PATH/oci-mcp/oci_mcp_server.py"],
       "env": { "OCI_CONFIG_FILE": "/Users/<you>/.oci/config" }
     }
   }
