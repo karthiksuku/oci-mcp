@@ -1,4 +1,5 @@
 # OCI MCP Server — Sample Queries
+<img width="2976" height="1750" alt="image" src="https://github.com/user-attachments/assets/4fa62582-f3ee-4eb6-b7a3-620989da994d" />
 
 ## Resource discovery
 - Show me all running compute instances in my tenancy
