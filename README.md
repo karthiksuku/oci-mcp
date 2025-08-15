@@ -5,7 +5,7 @@ Model Context Protocol (MCP) server exposing **Oracle Cloud Infrastructure** too
 - 🔧 Tools: list/inspect **Compute**, **Autonomous Databases**, **Object Storage**, instance actions, quick security checks, **(experimental)** cost summaries
 - 📚 Resources: `oci://compartments` etc.
 - 🧠 Prompts: `oci_analysis_prompt`
-- 🖥️ Works with Claude Desktop
+- 🖥️ Works with Claude Desktop via stdio transport
 > Built with the official [MCP Python SDK](https://modelcontextprotocol.io/quickstart/server) and the [OCI Python SDK](https://oracle-cloud-infrastructure-python-sdk.readthedocs.io).
 
 ## Quick start
